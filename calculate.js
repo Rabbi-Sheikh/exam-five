@@ -10,3 +10,7 @@ document.getElementById('rectangle-button').addEventListener('click', function()
     const totalArea = a * b ;
      addElement('Rectangle Area ---'+' ' +  totalArea);
 })
+
+document.getElementById('blog-button').addEventListener('click', function(){
+    window.location.href = '/blog.html'
+})
