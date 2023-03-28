@@ -1,1 +1,7 @@
-console.log(5555);
+function toParseFloat(a){
+
+    const getStringValue= document.getElementById(a);
+    const getValue  = getStringValue.value;
+    const toConvert = parseFloat(getValue);
+    return toConvert;
+}
